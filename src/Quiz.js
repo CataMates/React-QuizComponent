@@ -29,7 +29,7 @@ class Quiz extends Component {
 
         <div>
 
-        <QuizEnd resetClickHandle={this.handleResetClick.bind(this)} />
+        <QuizEnd resetClickHandler={this.handleResetClick.bind(this)} />
 
         </div>
       );
